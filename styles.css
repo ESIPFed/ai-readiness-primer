@@ -1,0 +1,14 @@
+/* Custom styles for AI Readiness Primer */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.quarto-title-banner {
+  background-color: var(--primary-color);
+}
