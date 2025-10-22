@@ -12,11 +12,23 @@ The published site is available at: https://esipfed.github.io/ai-readiness-prime
 
 ## Local Development
 
-### Prerequisites
+### Using GitHub Codespaces (Recommended)
+
+The easiest way to get started is using GitHub Codespaces, which provides a pre-configured development environment:
+
+1. Click the "Code" button on the repository page
+2. Select "Codespaces" tab
+3. Click "Create codespace on main"
+
+The development container will automatically set up Quarto and all necessary tools. Once ready, you can use the terminal to run Quarto commands.
+
+### Local Setup
+
+#### Prerequisites
 
 - [Quarto](https://quarto.org/docs/get-started/) installed on your system
 
-### Building Locally
+#### Building Locally
 
 To preview the site locally:
 

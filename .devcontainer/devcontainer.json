@@ -1,0 +1,35 @@
+{
+  "name": "AI Readiness Primer - Quarto Development",
+  "image": "ghcr.io/rocker-org/devcontainer/r-ver:4",
+  
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "version": "latest"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  },
+
+  "forwardPorts": [4848],
+
+  "portsAttributes": {
+    "4848": {
+      "label": "Quarto Preview",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "postCreateCommand": "quarto check",
+
+  "remoteUser": "vscode"
+}
