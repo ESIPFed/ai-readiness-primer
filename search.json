@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The AI Readiness Primer is a collaborative effort to provide resources and guidance for organizations and individuals looking to understand and prepare for AI adoption."
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "",
+    "text": "The AI Readiness Primer is a collaborative effort to provide resources and guidance for organizations and individuals looking to understand and prepare for AI adoption."
+  },
+  {
+    "objectID": "about.html#purpose",
+    "href": "about.html#purpose",
+    "title": "About",
+    "section": "Purpose",
+    "text": "Purpose\nThis primer aims to:\n\nProvide foundational knowledge about AI readiness\nConsolidate best practices and resources\nSupport community learning and collaboration\nEnable organizations to assess and improve their AI readiness"
+  },
+  {
+    "objectID": "about.html#community",
+    "href": "about.html#community",
+    "title": "About",
+    "section": "Community",
+    "text": "Community\nThis project is maintained by ESIP Fed and welcomes contributions from the community."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Readiness Primer",
+    "section": "",
+    "text": "This is a primer resource for AI readiness in the community. This site consolidates resources and information to help organizations and individuals prepare for and adopt AI technologies effectively."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "AI Readiness Primer",
+    "section": "",
+    "text": "This is a primer resource for AI readiness in the community. This site consolidates resources and information to help organizations and individuals prepare for and adopt AI technologies effectively."
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "AI Readiness Primer",
+    "section": "Getting Started",
+    "text": "Getting Started\nExplore the resources available in the navigation menu to learn more about AI readiness."
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "AI Readiness Primer",
+    "section": "Contributing",
+    "text": "Contributing\nThis is a community resource. Contributions are welcome! Please see the repository for information on how to contribute."
+  }
+]
