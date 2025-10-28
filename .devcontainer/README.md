@@ -13,6 +13,7 @@ This development container provides a complete environment for working with the 
   - `ms-vscode.live-server` - Live server for quick previews
 - **Port Forwarding**: Automatic forwarding of port 4848 (Quarto preview server)
 - **Post-Create Check**: Runs `quarto check` to verify installation
+- **User**: Container runs as root user (default for rocker-org images)
 
 ## Using the Dev Container
 
