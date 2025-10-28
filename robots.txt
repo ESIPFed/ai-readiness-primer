@@ -1,0 +1,1 @@
+Sitemap: https://ESIPFed.github.io/ai-readiness-primer/sitemap.xml
