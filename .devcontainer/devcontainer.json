@@ -29,7 +29,5 @@
     }
   },
 
-  "postCreateCommand": "quarto check",
-
-  "remoteUser": "vscode"
+  "postCreateCommand": "quarto check"
 }
