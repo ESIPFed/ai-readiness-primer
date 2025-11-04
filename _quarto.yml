@@ -11,6 +11,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: data_preparation.qmd
+        text: Data Preparation
 
 format:
   html:
