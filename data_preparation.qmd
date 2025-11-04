@@ -34,10 +34,7 @@ Gridded datasets group data points into uniform grid cells where each cell cover
 
 In contrast, raw remote sensing images often have slightly varying coverage extents between repeat collections of the same area. Ungridded vector point data, such as measurements from weather or monitoring station, are typically irregularly spaced (for example, one station might be 20 kilometers north of its neighbor, but 50 kilometers south of the next).
 
-If data is not gridded, documentation and example code should explain how a user can achieve a similar effect, This might include 
-* using “get range” on a Cloud Optimized GeoTIFF (COG) file
-* returning subsets of a Zarr store
-* guidance on merging data, such as dealing with overlapping data or filling gaps
+If data is not gridded, documentation and example code should explain how a user can achieve a similar effect, This might include using “get range” on a Cloud Optimized GeoTIFF (COG) file, returning subsets of a Zarr store, plus guidance on merging data (dealing with overlapping data or filling gaps).
 
 ### Labeled targets
 
