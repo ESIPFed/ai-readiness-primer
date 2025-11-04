@@ -1,0 +1,45 @@
+---
+title: "Data Preparation"
+---
+
+The items in the data preparation section of the checklist covers some core options of preparing data, such as filling nulls, identifying outliers, and aggregating data from multiple sources, as well as more advanced options, such as gridding and labeling target data.
+
+## Guidance For Data Managers and Repositories
+
+All the checklist items in this section should be known by the data creator. You can help interpret the meaning of an item if the data creator struggles to understand how the generic item applies to a specific dataset.
+
+## Guidance For Data Creators
+
+The items on this checklist are all steps taken after the collection of the data. If possible, look at this section as you are in the data preparation step to determine how many of these items are relevant to your dataset and feasible to fulfill. Once the dataset is complete and ready for release, with access details known, it is ready to go through the checklist.
+
+## Data Preparation Items in the Checklist
+
+Here are further details on each of the items in the Data Preparation section of the checklist, including what they mean and how they impact AI and ML use. These items generally impact how much cleaning and preparation a downstream user of a dataset will need to do.
+
+### Filling nulls or gaps
+
+Machine learning algorithms rely on numerical input and many can’t directly handle null values. Common solutions to this are interpolation and masking. If data is interpolated, the dataset should provide documentation about how the missing data was filled. If data is masked, the dataset should provide the mask data, channel, or layer, as well as supporting documentation and example code on how to use it.
+
+### Identifying outliers
+
+Outliers in a dataset can skew the results of analysis. If outliers are identified, the user can decide whether they want their workflow to exclude outliers. If outliers are excluded, this should be stated in the documentation so the user fully understands the dataset.
+
+### Single or aggregated data source
+
+Understanding whether a dataset comes from a single source or is aggregated from multiple sources helps the user understand whether there might be large or subtle differences between the data from each source. If it is aggregated, the documentation will need to state the source and any differences between them. If any sources need to be treated differently, example code will need to support how to treat each source.
+
+### Gridded data
+
+Gridded datasets group data points into uniform grid cells where each cell covers the same latitude and longitude boundaries across time. This consistency ensures that the same real-world location is always represented by a data point in the same location of each matching grid cell. Such spatial regularity is valuable in machine learning because it enables easier comparison, alignment, and modeling across time and space. 
+
+In contrast, raw remote sensing images often have slightly varying coverage extents between repeat collections of the same area. Ungridded vector point data, such as measurements from weather or monitoring station, are typically irregularly spaced (for example, one station might be 20 kilometers north of its neighbor, but 50 kilometers south of the next).
+
+If data is not gridded, documentation and example code should explain how a user can achieve a similar effect, This might include 
+* using “get range” on a Cloud Optimized GeoTIFF (COG) file
+* returning subsets of a Zarr store
+* guidance on merging data, such as dealing with overlapping data or filling gaps
+
+### Labeled targets
+
+If target objects or subjects are identified and labeled in a dataset, they can be used as training data for machine learning projects. As an example, if swimming pools are labelled in a satellite imagery dataset, that can be used as training data to find other swimming pools.
+
